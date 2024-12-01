@@ -134,6 +134,14 @@ namespace GestureDrawingApp
         {
             // Initialize the slideshow when the button is clicked
             InitializeImageSlideshow();
+            button1.Hide();
+            button2.Hide();
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
